@@ -124,7 +124,7 @@ namespace VisBuildTFSUpdate
             stringBuilder.Append(
                 "if fso.FileExists(\"%ProgramFiles%\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe\") then \n");
             stringBuilder.Append(
-                "  \tTFS_EXE = \"%ProgramFiles%)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe\"\n\n");
+                "  \tTFS_EXE = \"%ProgramFiles%\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe\"\n\n");
 
             stringBuilder.Append(
                 "elseif fso.FileExists(\"%ProgramFiles%\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe\") then \n");
