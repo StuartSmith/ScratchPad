@@ -1,8 +1,4 @@
 
-## Utility to update Visual Build Files
+## Utility To Update Visual Build Files TFS_EXE retrieval procedure. 
 
-Specifically designed to update the procedure to update the path to TFS in a Visual Build file. If the procedure does not it will be created if it does exist then it will be updated to reflect what is saved in the source code
-
-
-
-
+This Utility specifically designed to update the procedure Create_Retrieve_TFS_Base_path_Script in a Visual Build scrpt file. The procedure Create_Retrieve_TFS_Base_path_Script retrieves the path the TFS_EXE location from the system.  If the procedure does not exist it will be created, if it does exist then it will be updated to reflect the contents of the procedure found in the source code of this application. 
