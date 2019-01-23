@@ -1,8 +1,18 @@
 
-## Utility to update Visual Build Files
+## Utility to list all assemblies and their .Net Version
 
-Specifically designed to update the procedure to update the path to TFS in a Visual Build file. If the procedure does not it will be created if it does exist then it will be updated to reflect what is saved in the source code
+A Utility that is given a directory and assembly wild cards, reports all assemblies and there associated dotnet versions. 
 
+```
+DotNetVersionReport C:\inetpub\wwwroot\ASM\All\bin Entriq*.dll Paymedia*.dll
+```
 
-
+Output should look as follows:
+```
+fileName=PayMedia.Security.Interfaces.dll FrameworkVersion=".NET Framework 4.7.2"
+fileName=PayMedia.Security.Licensing.dll FrameworkVersion=".NET Framework 4.7.2"
+fileName=PayMedia.Testing.StepDefinitions.dll FrameworkVersion=".NET Framework 4.7.2"
+fileName=PayMedia.Utilities.CodeGen.dll FrameworkVersion=".NET Framework 4.7.2"
+fileName=PayMedia.Utilities.CodeGen.UnitTests.dll FrameworkVersion=".NET Framework 4.7.2"
+```
 
