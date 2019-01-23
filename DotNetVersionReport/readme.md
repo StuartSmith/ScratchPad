@@ -4,7 +4,7 @@
 A Utility that is given a directory and assembly wild cards, reports all assemblies and there associated dotnet versions. 
 
 ```
-DotNetVersionReport C:\tfssrc\Team_Branches\40687-2017-Upgrade\Build\DeploymentManager_Build\Build\Products\ASM\All\bin Entriq*.dll Paymedia*.dll
+DotNetVersionReport C:\inetpub\wwwroot\ASM\All\bin Entriq*.dll Paymedia*.dll
 ```
 
 Output should look as follows:
