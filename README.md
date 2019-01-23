@@ -1,4 +1,4 @@
-# ScratchPad
+# Scratch Pad
 This repository is to hold small utilities used for different projects or to answer questions on stack overflow
 
 -------------------
