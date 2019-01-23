@@ -50,7 +50,7 @@ namespace DotNetVersionReport
 
             foreach (var assemblyRuntimeValue in assemblyRuntimeValues.OrderBy(x => x.fileName))
             {
-               Console.WriteLine($"fileName={assemblyRuntimeValue.fileName} FrameworkVersion={ assemblyRuntimeValue.frameWorkVersion.FirstOrDefault().NamedArguments.FirstOrDefault().TypedValue}");
+               Console.WriteLine($"fileName={assemblyRuntimeValue.fileName} FrameworkVersion={ assemblyRuntimeValue.frameWorkVersion.FirstOrDefault()?.NamedArguments?.FirstOrDefault().TypedValue}");
             }
 
 
